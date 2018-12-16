@@ -2,37 +2,53 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life.",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-#print(toy_story.storyline)
+her = media.Movie("Her",
+                  "A Spike Jonze love story.",
+                  "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
+                  "https://www.youtube.com/watch?v=XsQqMwacZQw")
 
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet.",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
-#avatar.show_trailer()
 
 synecdoche = media.Movie("Synecdoche, New York",
-                         "A theater director is mounting the play of his life",
+                         "A theater director struggles with his work.",
                          "https://upload.wikimedia.org/wikipedia/en/6/6a/Synecdoche%2C_New_York_poster.jpg",
                          "https://www.youtube.com/watch?v=XIizh6nYnTU")
-#synecdoche.show_trailer()
 
-ratatouille = media.Movie("Ratatouille",
-                          "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
-                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
 
-hunger_games = media.Movie("The Hunger Games",
-                           "The Games Will Change Everyone",
-                           "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                           "https://www.youtube.com/watch?v=mfmrPu43DF8")
+drive = media.Movie("Drive",
+                    "There are no clean getaways.",
+                    "https://upload.wikimedia.org/wikipedia/en/1/13/Drive2011Poster.jpg",
+                    "https://www.youtube.com/watch?v=KBiOF3y1W0Y")
 
-midnight_in_paris = media.Movie("Midnight in Paris",
-                                "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s everyday at midnight.",
-                                "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=FAfR8omt-CY")
-movies = [toy_story, synecdoche, ratatouille, hunger_games, midnight_in_paris, avatar]
+anomalisa = media.Movie("Anomalisa",
+                        "Welcome to the Kaufman surreal-neorealism tale in a dull world of sameness.",
+                        "https://upload.wikimedia.org/wikipedia/en/0/0f/Anomalisa_poster.jpg",
+                        "https://www.youtube.com/watch?v=WQkHA3fHk_0")
+
+eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
+                               "You can erase someone from your mind. Getting them out of your heart is another story.",
+                               "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png",
+                               "https://www.youtube.com/watch?v=rb9a00bXf-U")
+
+children = media.Movie("Children of Men",
+                       "The Future's a thing of the past.",
+                       "https://static.rogerebert.com/uploads/movie/movie_poster/children-of-men-2007/large_pGksHILD8UljwU1J3ZLPPRgyvF8.jpg",
+                       "https://www.youtube.com/watch?v=2VT2apoX90o")
+
+
+isle = media.Movie("Isle of Dogs",
+                   "Welcome to the Isle of Dogs.",
+                   "https://upload.wikimedia.org/wikipedia/en/2/23/IsleOfDogsFirstLook.jpg",
+                   "https://www.youtube.com/watch?v=dt__kig8PVU")
+
+whiplash = media.Movie("Whiplash",
+                       "The road to greatness can take you to the edge",
+                       "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+                       "https://www.youtube.com/watch?v=Df1xkYYbYrY")
+
+arrival = media.Movie("Arrival",
+                       "Why are they here?",
+                       "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+                       "https://www.youtube.com/watch?v=tFMo3UJ4B4g")
+
+movies = [her, synecdoche, drive, anomalisa, eternal_sunshine, isle]
 fresh_tomatoes.open_movies_page(movies)
